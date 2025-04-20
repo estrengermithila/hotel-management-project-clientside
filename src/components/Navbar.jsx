@@ -3,17 +3,19 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const links =<>
-    <li><NavLink to='/'>Homies</NavLink></li>
-    <li><NavLink to='/rooms'>Rooms</NavLink></li>
-    <li><NavLink to='/services'>Services</NavLink></li>
-    <li><NavLink to='/gallery'>Gallery</NavLink></li>
-    <li><NavLink to='/news'>News</NavLink></li>
-    <li><NavLink to='/contacts'>Contacts</NavLink></li>
-    <li><NavLink to='/about'>About</NavLink></li>
+    <li><NavLink
+    className={({isActive}) =>`font-bold text-md hover:text-[#b55b02] ${isActive ?'text-[#b55b02] font-bold text-xl':''}`}
+    to='/'>Home</NavLink></li>
+    <li><NavLink className={({isActive}) =>`font-bold text-md hover:text-[#b55b02] ${isActive ?'text-[#b55b02] font-bold text-xl':''}`} to='/rooms'>Rooms</NavLink></li>
+    <li><NavLink className={({isActive}) =>`font-bold text-md hover:text-[#b55b02] ${isActive ?'text-[#b55b02] font-bold text-xl':''}`} to='/services'>Services</NavLink></li>
+    <li><NavLink className={({isActive}) =>`font-bold text-md hover:text-[#b55b02] ${isActive ?'text-[#b55b02] font-bold text-xl':''}`} to='/gallery'>Gallery</NavLink></li>
+    <li><NavLink className={({isActive}) =>`font-bold text-md hover:text-[#b55b02] ${isActive ?'text-[#b55b02] font-bold text-xl':''}`} to='/news'>News</NavLink></li>
+    <li><NavLink className={({isActive}) =>`font-bold text-md hover:text-[#b55b02] ${isActive ?'text-[#b55b02] font-bold text-xl':''}`} to='/contacts'>Contacts</NavLink></li>
+    <li><NavLink className={({isActive}) =>`font-bold text-md hover:text-[#b55b02] ${isActive ?'text-[#b55b02] font-bold text-xl':''}`} to='/about'>About</NavLink></li>
     </>
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar backdrop-blur-xl bg-white/30 z-50 fixed">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

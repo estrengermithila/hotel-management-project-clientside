@@ -6,10 +6,12 @@ import Foot from './Foot';
 
 const Root = () => {
     return (
-        <div>
+        <div className=''>
            
-          <Navbar></Navbar>
-<div className=''>
+         <div className='h-20'>
+         <Navbar></Navbar>
+         </div>
+<div className='container min-h-[calc(100vh-664px)]'>
     <Outlet></Outlet>
     </div>
 
