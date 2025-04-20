@@ -1,5 +1,9 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { motion } from "motion/react"
+import { easeOut } from 'motion';
+import MarqueeImage from './MarqueeImage';
+import moment from 'moment';
 
 const RoomsCardDetails = () => {
     const {id} = useParams()
@@ -46,13 +50,19 @@ const RoomsCardDetails = () => {
     <p className='font-semibold flex gap-2'>Price : <p className='text-[#787778] text-md'>{price}</p></p>
     
     </div>
+    <div>
+    <p>{moment().format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
+    </div>
     <div className="card-actions">
-      <button className="btn w-full text-white mt-4 bg-[#b55b02] ">Book Now</button>
+      <motion.button animate={{y:[0,15,0]}} transition={{repeat:Infinity, delay:1,ease:easeOut,duration:3}} className="btn w-full mb-5 text-white mt-4 bg-[#b55b02] ">Book Now</motion.button>
     </div>
   </div>
 </div>
           
                 </div>
+            </div>
+            <div className='mb-8 mt-20 max-w-[1480px] mx-auto'>
+              <MarqueeImage></MarqueeImage>
             </div>
         </div>
     );
