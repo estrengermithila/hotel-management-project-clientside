@@ -11,7 +11,7 @@ const Root = () => {
          <div className='h-20'>
          <Navbar></Navbar>
          </div>
-<div className='container min-h-[calc(100vh-664px)]'>
+<div className=''>
     <Outlet></Outlet>
     </div>
 

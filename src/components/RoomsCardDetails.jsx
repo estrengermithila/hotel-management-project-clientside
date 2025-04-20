@@ -13,24 +13,45 @@ const RoomsCardDetails = () => {
         <div>
             <h1 className='text-center text-4xl font-bold mt-12 mb-8'>{roomOverview}</h1>
             <div className='max-w-[1480px] mx-auto flex gap-4'>
-                <div className='border-2 border-red-900 w-3/4'>
+                <div className='w-3/4'>
                     <img src={roomImage} alt="" />
                 </div>
                 <div>
-                <div className=" bg-base-100 w-full shadow-xl">
+
+                <div className="card bg-base-100 w-96 shadow-xl">
   <div className="card-body">
-    <h2 className="card-title text-3xl text-[#b55b02] font-bold">{roomOverview}</h2>
-    <p className='flex'><span className='text-xl font-semibold'>Details: </span><p className='text-[#787778] text-xl'>{details}</p></p>
-    <p className='flex items-center justify-center'><span className='text-xl font-semibold'>Category: </span><p className='text-[#787778]'>{category}</p></p>
-    <p className='flex'><span className='text-xl font-semibold'>Room Size:</span><p className='text-[#787778]'>{roomSize}</p></p>
-    <p className='flex'><span className='text-xl font-semibold'>Max Occupancy: </span><p className='text-[#787778]'>{maxOccupancy}</p></p>
-    <p className='flex'><span className='text-xl font-semibold'>Bed Type:</span><p className='text-[#787778]'>{bedType}</p></p>
-    <p className='flex'><span className='text-xl font-semibold'>Price:</span><p className='text-[#787778]'>{price}</p></p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Book Now</button>
+    <h1 className='text-3xl  text-[#b55b02] font-bold p-2'>{roomOverview}</h1>
+    <h2 className="text-md text-[#787778]">The Luxury Penthouse offers a truly extravagant experience, featuring a private rooftop terrace, a spacious living room, and a master bedroom with panoramic city views. This penthouse is designed for those who seek privacy, luxury, and exceptional service, combining high-end amenities and sophisticated design in every corner.</h2>
+    <div className='flex gap-2 justify-center mt-5'>
+    <p className='font-semibold flex'>Details:</p>
+    <p className='text-[#787778] text-md'>{details}</p>
+    </div>
+    <div>
+    <p className='font-semibold flex gap-2'>Category : <p className='text-[#787778] text-md'>{category}</p></p>
+    
+    </div>
+    <div>
+    <p className='font-semibold flex gap-2'>Room Size : <p className='text-[#787778] text-md'>{roomSize}</p></p>
+    
+    </div>
+    <div>
+    <p className='font-semibold flex gap-2'>Max Occupancy : <p className='text-[#787778] text-md'>{maxOccupancy}</p></p>
+    
+    </div>
+    <div>
+    <p className='font-semibold flex gap-2'>Bed Type :<p className='text-[#787778] text-md'>{bedType}</p></p>
+    
+    </div>
+    <div>
+    <p className='font-semibold flex gap-2'>Price : <p className='text-[#787778] text-md'>{price}</p></p>
+    
+    </div>
+    <div className="card-actions">
+      <button className="btn w-full text-white mt-4 bg-[#b55b02] ">Book Now</button>
     </div>
   </div>
 </div>
+          
                 </div>
             </div>
         </div>
