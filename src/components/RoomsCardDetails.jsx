@@ -51,7 +51,7 @@ const RoomsCardDetails = () => {
     
     </div>
     <div>
-    <p>{moment().format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
+    <p className="input input-bordered w-full max-w-xs">{moment().format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
     </div>
     <div className="card-actions">
       <motion.button animate={{y:[0,15,0]}} transition={{repeat:Infinity, delay:1,ease:easeOut,duration:3}} className="btn w-full mb-5 text-white mt-4 bg-[#b55b02] ">Book Now</motion.button>

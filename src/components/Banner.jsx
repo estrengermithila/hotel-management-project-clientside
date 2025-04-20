@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from "motion/react"
 import { easeOut } from 'motion';
+import moment from 'moment';
 
 
 const Banner = () => {
@@ -17,7 +18,7 @@ const Banner = () => {
 
 <div className='mx-96'>
 <div className='flex lg:py-10 justify-center items-center relative gap-10 bg-white top-96 p-[20px]'>
-    <input type="text" className='p-[10px] w-44 border-2 border-solid  border-[#ccc]' placeholder='17 apr 2025 - 18 Apr 2025'  />
+     <p className="input bg-[#f5f5f5] input-bordered w-full max-w-xs">{moment().format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
     <select className='p-[10px] bg-[#f5f5f5] w-44 border-2 border-solid  border-[#ccc]'>
         <option className=''>Guest</option>
         <option>Guest 1</option>
