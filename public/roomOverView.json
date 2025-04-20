@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "roomOverview": "Deluxe King Room",
+      "roomImage": "https://i.ibb.co.com/PJtt51G/l5.jpg",
+      
+      "details": "Spacious room with a city view, king-size bed, work desk, and en-suite bathroom.",
+      "category": "Deluxe",
+      "roomSize": "35 sqm",
+      "maxOccupancy": 2,
+      "bedType": "King",
+      "price": 120,
+      "availability": "Available"
+    },
+    {
+      "id": 2,
+      "roomOverview": "Standard Twin Room",
+      "roomImage":"https://i.ibb.co.com/270tHWjZ/l3.jpg",
+      "details": "Comfortable twin room ideal for friends or colleagues, includes free Wi-Fi.",
+      "category": "Standard",
+      "roomSize": "28 sqm",
+      "maxOccupancy": 2,
+      "bedType": "Twin",
+      "price": 90,
+      "availability": "Available"
+    },
+    {
+      "id": 3,
+      "roomOverview": "Executive Suite",
+      "roomImage":"https://i.ibb.co.com/CpdxzQp1/l1.jpg",
+      "details": "Luxury suite with a living area, private balcony, and complimentary minibar.",
+      "category": "Suite",
+      "roomSize": "55 sqm",
+      "maxOccupancy": 3,
+      "bedType": "King",
+      "price": 200,
+      "availability": "Unavailable"
+    },
+    {
+      "id": 4,
+      "roomOverview": "Family Room",
+      "roomImage":"https://i.ibb.co.com/RGHfFQgs/l4.jpg",
+      "details": "Spacious room for families, features two queen beds and a kids play area.",
+      "category": "Family",
+      "roomSize": "45 sqm",
+      "maxOccupancy": 4,
+      "bedType": "2 Queen",
+      "price": 150,
+      "availability": "Available"
+    },
+    {
+      "id": 5,
+      "roomOverview": "Single Economy Room",
+      "roomImage":"https://i.ibb.co.com/LDRDNhSw/l6.jpg",
+      "details": "Cozy room with a single bed, perfect for solo travelers on a budget.",
+      "category": "Economy",
+      "roomSize": "18 sqm",
+      "maxOccupancy": 1,
+      "bedType": "Single",
+      "price": 60,
+      "availability": "Available"
+    },
+    {
+      "id": 6,
+      "roomOverview": "Premium Sea View Room",
+      "roomImage":"https://i.ibb.co.com/b5ZXfCkR/photo-1506664453913-f326aa81f54d-740x500.jpg",
+      "details": "Enjoy breathtaking sea views, a queen bed, and luxury toiletries.",
+      "category": "Premium",
+      "roomSize": "32 sqm",
+      "maxOccupancy": 2,
+      "bedType": "Queen",
+      "price": 140,
+      "availability": "Unavailable"
+    },
+    {
+      "id": 7,
+      "roomOverview": "Junior Suite",
+      "roomImage": "https://i.ibb.co.com/BH5hd5CQ/Fotolia-102576616-Subscription-Monthly-M-740x500.jpg",
+      "details": "Elegant suite with a small lounge area, king bed, and marble bathroom.",
+      "category": "Suite",
+      "roomSize": "48 sqm",
+      "maxOccupancy": 3,
+      "bedType": "King",
+      "price": 180,
+      "availability": "Available"
+    },
+    {
+      "id": 8,
+      "roomOverview": "Accessible Room",
+      "roomImage":"https://i.ibb.co.com/6Rr80YnQ/Fotolia-52888103-Subscription-Monthly-M-740x500.jpg",
+      "details": "Designed for accessibility with wider doors, grab bars, and roll-in shower.",
+      "category": "Standard",
+      "roomSize": "30 sqm",
+      "maxOccupancy": 2,
+      "bedType": "Queen",
+      "price": 100,
+      "availability": "Available"
+    },
+    {
+      "id": 9,
+      "roomOverview": "Luxury Penthouse Suite",
+      "roomImage":"https://i.ibb.co.com/7J10jFTK/Fotolia-52888103-Subscription-Monthly-M-640x650-1.jpg",
+      "details": "Top-floor penthouse with panoramic views, jacuzzi, and private dining.",
+      "category": "Luxury",
+      "roomSize": "85 sqm",
+      "maxOccupancy": 4,
+      "bedType": "King",
+      "price": 400,
+      "availability": "Unavailable"
+    },
+    {
+      "id": 10,
+      "roomOverview": "Business Class Room",
+      "roomImage":"https://i.ibb.co.com/Q76ZSQhy/Fotolia-179700361-Subscription-Monthly-M-740x500.jpg",
+      "details": "Ideal for business travelers, includes ergonomic workspace and fast Wi-Fi.",
+      "category": "Business",
+      "roomSize": "30 sqm",
+      "maxOccupancy": 2,
+      "bedType": "Queen",
+      "price": 130,
+      "availability": "Available"
+    }
+  ]
+  

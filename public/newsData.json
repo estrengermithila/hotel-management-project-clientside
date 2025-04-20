@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "title": "Grand Opening of Skyview Suites",
+      "date": "2025-04-01",
+      "content": "Our Skyview Suites are now open!",
+      "longDescription": "We are thrilled to announce the grand opening of our new Skyview Suites. Located on the top floor, these rooms offer stunning panoramic views, private balconies, and exclusive access to premium amenities.",
+      "image": "https://i.ibb.co.com/x8mRvKLd/photo-1498409505433-aff66f7ba9e6-700x480.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Spring Getaway Deals",
+      "date": "2025-03-21",
+      "content": "Get 30% off for spring bookings!",
+      "longDescription": "Book your perfect spring vacation with us and enjoy a 30% discount on all room categories. This limited-time offer is valid until May 31. Make your escape extra special!",
+      "image": "https://i.ibb.co.com/5WgC61Mr/photo-1484659619207-9165d119dafe-700x480.jpg"
+    },
+    {
+      "id": 3,
+      "title": "New Spa & Wellness Center Launched",
+      "date": "2025-03-05",
+      "content": "Relax and recharge at our spa.",
+      "longDescription": "Our brand-new spa and wellness center is officially open. Guests can now indulge in holistic treatments, yoga sessions, and luxury massages designed to rejuvenate body and mind.",
+      "image": "https://i.ibb.co.com/fVdXCnC9/photo-1521017432531-fbd92d768814-700x480.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Celebrate Mother’s Day With Us",
+      "date": "2025-04-10",
+      "content": "Special Mother’s Day brunch and gifts.",
+      "longDescription": "Treat your mom to a delightful brunch and spa day this Mother’s Day. We’re offering a curated dining experience, complimentary spa gift bags, and live acoustic music to set the mood.",
+      "image": "https://i.ibb.co.com/LzK6tqp4/Fotolia-163203222-Subscription-Monthly-M-700x480.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ideal Steak",
+      "date": "2025-02-27",
+      "content": "Recognized for sustainability efforts.",
+      "longDescription": "We’re proud to receive the 2025 Green Hospitality Award for our sustainable practices, including energy-efficient systems, waste reduction programs, and eco-friendly guest amenities.",
+      "image": "https://i.ibb.co.com/q3c4r66F/home-slide-3-700x480.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Chef’s Table Experience Launched",
+      "date": "2025-03-15",
+      "content": "Dine with the chef himself.",
+      "longDescription": "We’ve introduced an exclusive Chef’s Table dining experience where guests enjoy a custom 5-course menu prepared live by our executive chef, Ana Delgado, using fresh local ingredients.",
+      "image": "https://i.ibb.co.com/XkVRCFMF/photo-1533052476933-b8886c2652ad-700x480.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Live DJ Nights Every Saturday",
+      "date": "2025-01-20",
+      "content": "Weekend vibes just got better.",
+      "longDescription": "Join us every Saturday night for our rooftop DJ events featuring local and international talent. Enjoy great music, signature cocktails, and an unforgettable vibe.",
+      "image": "https://i.ibb.co.com/0yQRLnk3/photo-1488345979593-09db0f85545f-600x600.jpg"
+    },
+    {
+      "id": 8,
+      "title": "We Now Offer Free EV Charging",
+      "date": "2025-02-05",
+      "content": "Charge your car while you relax.",
+      "longDescription": "We’ve added complimentary EV charging stations for our eco-conscious guests. Conveniently located in our parking area, available to all staying guests.",
+      "image": "https://i.ibb.co.com/qMqffMgY/photo-1494336934272-f0efcedfc8d7-600x600.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Introducing Mobile Check-In",
+      "date": "2025-01-10",
+      "content": "Faster, safer, smarter check-ins.",
+      "longDescription": "Skip the front desk! With our new mobile check-in system, guests can check in, receive digital room keys, and go straight to their rooms—all from their smartphones.",
+      "image": "https://i.ibb.co.com/XkVRCFMF/photo-1533052476933-b8886c2652ad-700x480.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Holiday Festivities Recap",
+      "date": "2025-01-01",
+      "content": "A look back at our holiday cheer.",
+      "longDescription": "From carolers in the lobby to the spectacular New Year's Eve rooftop countdown, our 2024 holiday season was full of joy. Here's a recap of the most magical moments.",
+      "image":  "https://i.ibb.co.com/0yQRLnk3/photo-1488345979593-09db0f85545f-600x600.jpg"
+    }
+  ]
+  

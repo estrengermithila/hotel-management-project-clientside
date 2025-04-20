@@ -1,0 +1,39 @@
+[
+    {
+        "serviceImage": "https://i.ibb.co.com/ycQg5b2n/laundry-380x240.jpg",
+      "servicesName": "Room Service",
+      "servicesDescription": "24/7 in-room dining with a variety of cuisines and beverages.",
+      "price": 15.00
+    },
+    {
+        "serviceImage": "https://i.ibb.co.com/Z6yGw7vj/spa-380x240.jpg",
+      "servicesName": "Spa & Fitness",
+      "servicesDescription": "As a guest, you can enjoy our Spa facilities to relax aft....",
+      "price": 10.00
+    },
+    {
+        "serviceImage": "https://i.ibb.co.com/hJ3CVGt1/transfer-760x480.jpg",
+      "servicesName": "Free Transfer",
+      "servicesDescription": "Didn’t manage to book good transportation? We can help! W....",
+      "price": 60.00
+    },
+    {
+        "serviceImage": "https://i.ibb.co.com/KzFHpNHj/exclusive-offers-760x480.jpg",
+      "servicesName": "Exclusive Offers",
+      "servicesDescription": "We offer additional room services. That could be birthday....",
+      "price": 25.00
+    },
+    {
+        "serviceImage": "https://i.ibb.co.com/V0JHzxkh/food-760x480.jpg",
+      "servicesName": "Food and Beverage",
+      "servicesDescription": "24/7 access to fully equipped fitness center with personal trainers available.",
+      "price": 10.00
+    },
+    {
+        "serviceImage": "https://i.ibb.co.com/RT9mXvMx/safe-secure-760x480.jpg",
+      "servicesName": "Safe & Secure",
+      "servicesDescription": "Keep your belongings safe! Use our storage services and k...",
+      "price": 40.00
+    }
+  ]
+  

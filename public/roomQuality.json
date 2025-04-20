@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+      "roomImage": "https://i.ibb.co.com/BH5hd5CQ/Fotolia-102576616-Subscription-Monthly-M-740x500.jpg",
+      "hotelRoomName": "Deluxe Single Room",
+      "roomDescription": "Perfect for solo travelers, this room offers a comfy single bed, workspace, and free Wi-Fi.",
+      "member": 1
+    },
+    {
+        "id": 2,
+      "roomImage": "https://i.ibb.co.com/b5ZXfCkR/photo-1506664453913-f326aa81f54d-740x500.jpg",
+      "hotelRoomName": "Standard Double Room",
+      "roomDescription": "Cozy room with a queen-size bed, flat-screen TV, and a private bathroom. Ideal for couples.",
+      "member": 2
+    },
+    {
+        "id": 3,
+      "roomImage": "https://i.ibb.co.com/Q76ZSQhy/Fotolia-179700361-Subscription-Monthly-M-740x500.jpg",
+      "hotelRoomName": "Twin Room",
+      "roomDescription": "Features two single beds and a modern interior. Great for friends or business partners.",
+      "member": 2
+    },
+    {
+        "id": 4,
+      "roomImage": "https://i.ibb.co.com/sJKXRHZg/Fotolia-163203222-Subscription-Monthly-M-740x500-1.jpg",
+      "hotelRoomName": "Family Suite",
+      "roomDescription": "Spacious room with a king bed and two single beds. Comes with a balcony and a family-friendly vibe.",
+      "member": 4
+    },
+    {
+        "id": 5,
+      "roomImage": "https://i.ibb.co.com/6Rr80YnQ/Fotolia-52888103-Subscription-Monthly-M-740x500.jpg",
+      "hotelRoomName": "Executive Suite",
+      "roomDescription": "A premium suite with a king-size bed, lounge area, and minibar. Ideal for business travelers.",
+      "member": 2
+    },
+    {
+        "id": 6,
+      "roomImage": "https://i.ibb.co.com/JjTPSgmP/Fotolia-163203222-Subscription-Monthly-M-740x500.jpg",
+      "hotelRoomName": "Budget Room",
+      "roomDescription": "Affordable option with a single bed, private bathroom, and basic amenities for short stays.",
+      "member": 1
+    },
+    {
+        "id": 7,
+      "roomImage": "https://i.ibb.co.com/7J10jFTK/Fotolia-52888103-Subscription-Monthly-M-640x650-1.jpg",
+      "hotelRoomName": "Presidential Suite",
+      "roomDescription": "Top-of-the-line suite with luxury furnishings, private dining, and panoramic views.",
+      "member": 3
+    },
+    {
+        "id": 8,
+      "roomImage": "https://i.ibb.co.com/7J10jFTK/Fotolia-52888103-Subscription-Monthly-M-640x650-1.jpg",
+      "hotelRoomName": "Couple's Retreat",
+      "roomDescription": "Romantic space with a jacuzzi, queen bed, mood lighting, and a private terrace.",
+      "member": 2
+    }
+  ]
+  
