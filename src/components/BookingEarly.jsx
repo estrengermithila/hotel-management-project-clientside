@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 const BookingEarly = () => {
     return (
         <div className="h-[453px]">
-            <div className="bg-[url(./src/assets/booking.jpg)] bg-no-repeat bg-cover  bg-center absolute w-full h-[450px]">
+            <div className="bg-[url(/assets/booking.jpg)] bg-no-repeat bg-cover  bg-center absolute w-full h-[450px]">
             <div className='flex flex-col justify-center items-center relative top-28'>
                 <p className=' text-5xl text-white'><GiSwirlRing />
                             </p>

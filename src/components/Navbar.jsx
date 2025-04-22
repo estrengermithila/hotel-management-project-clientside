@@ -1,7 +1,9 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { AuthContext } from '../Authprovider';
 
 const Navbar = () => {
+  const {user} = useContext(AuthContext)
     const links =<>
     <li><NavLink
     className={({isActive}) =>`font-bold text-md hover:text-[#b55b02] ${isActive ?'text-[#b55b02] font-bold text-xl':''}`}
@@ -50,7 +52,9 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Login</a>
+    <Link to='/register'> <a className="btn">Register</a></Link>
+    <Link to='/register'> <a className="btn">Login</a></Link>
+    
   </div>
 </div>
         </div>

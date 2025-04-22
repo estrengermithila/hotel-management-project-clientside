@@ -7,7 +7,7 @@ import moment from 'moment';
 const Banner = () => {
     return (
         <div>
-          <div className='bg-[url(./src/assets/bannerImage.jpg)] bg-no-repeat bg-cover  bg-center w-full h-screen absolute'>
+          <div className='bg-[url(/assets/bannerImage.jpg)] bg-no-repeat bg-cover  bg-center w-full h-screen absolute'>
         <div className='bg-black/50 w-full min-h-screen'>
 <motion.div className='relative flex flex-col justify-center items-center top-72'>
     <motion.h1 animate={{scale:1.5}} transition={{duration:3,delay:2}} className='text-white text-7xl mb-12'>Enjoy the Experience</motion.h1 >

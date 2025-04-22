@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 const SaveBooking = () => {
     return (
         <div className='mt-16 h-[550px]'>
-            <div className='bg-[url(./src/assets/bannerImage.jpg)] bg-no-repeat bg-cover  bg-center w-full h-[450px] absolute'>
+            <div className='bg-[url(/assets/bannerImage.jpg)] bg-no-repeat bg-cover  bg-center w-full h-[450px] absolute'>
         <div className='bg-black/50 w-full min-h-[450px]'>
         <div className='flex flex-col justify-center items-center relative top-28'>
             <h1 className='text-white text-7xl mb-6'>Book Early & Save</h1>

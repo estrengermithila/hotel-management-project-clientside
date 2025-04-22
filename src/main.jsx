@@ -15,6 +15,9 @@ import About from './components/About';
 import News from './components/News';
 import CardGalleryDetails from './components/CardGalleryDetails';
 import RoomsCardDetails from './components/RoomsCardDetails';
+import Authprovider from './Authprovider';
+import Login from './components/Login';
+import Register from './components/Register';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,12 +30,12 @@ const router = createBrowserRouter([
       {
         path:'/rooms',
         element:<Rooms />,
-        loader:() => fetch('../public/roomOverView.json')
+        loader:() => fetch('/roomOverView.json')
       },
       {
         path:'/services',
         element:<Services />,
-        loader:() => fetch('../public/services.json')
+        loader:() => fetch('/services.json')
       },
       {
         path:'/gallery',
@@ -41,7 +44,7 @@ const router = createBrowserRouter([
       {
         path:'/news',
         element: <News />,
-        loader:() => fetch('../public/newsData.json')
+        loader:() => fetch('/newsData.json')
       },
       {
         path:'/contacts',
@@ -52,16 +55,24 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
+        path:'/login',
+        element: <Login />,
+      },
+      {
+        path:'/register',
+        element: <Register />,
+      },
+      {
         path:'/cardGalleryDetails/:id',
         element: <CardGalleryDetails />,
         // loader:({params}) => fetch(`newsData.json/${params.id}`)
-        loader: () => fetch(`../newsData.json`)
+        loader: () => fetch(`/newsData.json`)
       },
       {
         path:'/roomsCardDetails/:id',
         element: <RoomsCardDetails />,
         // loader:({params}) => fetch(`newsData.json/${params.id}`)
-        loader: () => fetch(`../roomOverView.json`)
+        loader: () => fetch(`/roomOverView.json`)
       },
     ]
   },
@@ -70,6 +81,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <Authprovider><RouterProvider router={router} /></Authprovider>
   </StrictMode>,
 )
